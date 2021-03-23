@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Viajes</title>
+    <!--CUSTOM PROPERTIES-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <header>
+        <div class="barra contenedor">
+            <div class="barra__navegacion">
+                <a class="logo" href="/">Logo Empresa</a>
+                <nav class="navegacion">
+                    <a class="navegacion__link" href="#">Inicio</a>
+                    <a class="navegacion__link" href="#">Nosotros</a>
+                    <a class="navegacion__link" href="#">Destinos</a>
+                    <a class="navegacion__link" href="#">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <!--SLIDER-->
+
+    <div class="slider__contenedor">
+        <div class="slider__contenedor--slider fade">
+            <img src="img/slider-img1.jpg" alt="imagen slider">
+        </div>
+        <div class="slider__contenedor--slider fade">
+            <img src="img/slider-img2.jpg" alt="imagen slider">
+        </div>
+        <div class="slider__contenedor--slider fade">
+            <img src="img/slider-img3.jpg" alt="imagen slider">
+        </div>
+        <div class="slider__contenedor--slider fade">
+            <img src="img/slider-img4.jpg" alt="imagen slider">
+        </div>
+        <div class="slider__contenedor--slider fade">
+            <img src="img/slider-img5.jpg" alt="">
+        </div>
+        <div class="direcciones">
+            <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+            <a href="#" class="siguiente" onclick="avanzaSlide(1)">&#10095;</a>
+        </div>
+        <div class="puntos">
+            <span class="puntos__individual active" onclick="posicionSlide(1)"></span>
+            <span class="puntos__individual" onclick="posicionSlide(2)"></span>
+            <span class="puntos__individual" onclick="posicionSlide(3)"></span>
+            <span class="puntos__individual" onclick="posicionSlide(4)"></span>
+            <span class="puntos__individual" onclick="posicionSlide(5)"></span>
+
+        </div>
+    </div>
+
